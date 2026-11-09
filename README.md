@@ -289,29 +289,32 @@ The trained models were also evaluated using two illustrative customer profiles.
 
 These examples demonstrate how model predictions can support the identification of customers who may require retention attention.
 
-## 10. Running the Project
+## 10. Running the Project on Google Colab
 
-The project was developed and executed in **Google Colab**.
+The project was developed using Google Colab. The notebook contains the complete implementation, including executed code cells, model evaluation results, and visualizations.
 
-### Requirements
+### Dataset Setup
 
-- Google account for Google Colab.
-- Python.
-- PySpark and its required runtime dependencies.
-- IBM Telco Customer Churn dataset.
+1. Download the IBM Telco Customer Churn dataset (`Telco-Customer-Churn.csv`).
+2. Open Google Drive and navigate to **My Drive**.
+3. Create the following folder structure:
 
-### Instructions
+```text
+My Drive/
+└── Colab Notebooks/
+    └── Churn_Prediction/
+        └── Telco-Customer-Churn.csv
+```
 
-1. Download or clone the repository.
-2. Open the project notebook in Google Colab.
-3. Execute the environment setup and SparkSession initialization cells.
-4. Download the IBM Telco Customer Churn dataset.
-5. Update the dataset path in the notebook as necessary.
-6. Run the notebook cells sequentially.
+4. Open the project notebook in Google Colab.
+5. Run the Google Drive mounting cell and authorize access to your Google Drive.
+6. Run the dataset loading cell. The notebook will automatically locate the CSV file at:
 
-The notebook covers data ingestion, preprocessing, SparkSQL analysis, feature engineering, model training, evaluation, and prediction.
+```text
+/content/drive/MyDrive/Colab Notebooks/Churn_Prediction/Telco-Customer-Churn.csv
+```
 
-**Note:** This is a notebook-based academic project. No public production API or deployed web application is included.
+**Alternative:** If the dataset is not found in Google Drive, the notebook supports uploading the CSV file directly into the Colab runtime.
 
 ## 11. Project Limitations
 
