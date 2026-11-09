@@ -343,10 +343,4 @@ Possible future enhancements include:
 
 **Course:** Big Data Technology
 
-**Project Team:**
-- Lê Minh Thành
-- Nguyễn Thị Ngọc Linh
-- Mai Thị Quỳnh Nhi
-- Võ Ngọc Thu
-
 This repository documents the implementation and experimental findings of a customer churn prediction workflow using PySpark, SparkSQL, and Spark MLlib.
